@@ -1,6 +1,1 @@
-# app-ads.txt for Crooked Guess
-# 1. Replace pub-0000000000000000 with YOUR AdMob publisher ID (AdMob > Settings > Account information).
-# 2. Put this file at the ROOT of the website you enter as "Website" in your Play listing,
-#    e.g. https://yourname.github.io/app-ads.txt  (it must be at the domain root, not in a subfolder).
-# 3. AdMob checks it within about 24 hours (AdMob > Apps > app-ads.txt).
-google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+google.com, pub-1841906482747439, DIRECT, f08c47fec0942fa0
