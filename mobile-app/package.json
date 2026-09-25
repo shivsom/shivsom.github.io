@@ -1,0 +1,20 @@
+{
+  "name": "crooked-guess-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Crooked Guess for Android (Capacitor wrapper around ../index.html)",
+  "scripts": {
+    "copy-web": "node scripts/copy-web.js",
+    "sync": "node scripts/copy-web.js && npx cap sync android",
+    "open": "npx cap open android"
+  },
+  "dependencies": {
+    "@capacitor-community/admob": "8.1.0",
+    "@capacitor/android": "8.5.2",
+    "@capacitor/app": "8.1.1",
+    "@capacitor/core": "8.5.2"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "8.5.2"
+  }
+}

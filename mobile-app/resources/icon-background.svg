@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8d5cf0"/><stop offset=".55" stop-color="#4b2e9a"/><stop offset="1" stop-color="#231a3d"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".42" r=".55">
+      <stop offset="0" stop-color="#ffd76a" stop-opacity=".45"/><stop offset=".6" stop-color="#ffb020" stop-opacity=".08"/><stop offset="1" stop-color="#ffb020" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="q" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset=".45" stop-color="#fff3b8"/><stop offset="1" stop-color="#ffd21f"/>
+    </linearGradient>
+    <radialGradient id="shine" cx=".34" cy=".3" r=".5"><stop offset="0" stop-color="#fff" stop-opacity=".75"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+    <radialGradient id="shade" cx=".5" cy=".5" r=".5"><stop offset=".6" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".25"/></radialGradient>
+    <filter id="ds" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#12082e" flood-opacity=".55"/></filter>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg)"/><rect width="512" height="512" fill="url(#glow)"/></svg>

@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Crooked Guess</string>
+    <string name="title_activity_main">Crooked Guess</string>
+    <string name="package_name">com.soham.crookedguess</string>
+    <string name="custom_url_scheme">com.soham.crookedguess</string>
+    <!-- AdMob APP ID. This is Google's official TEST app ID. Before publishing, replace it with
+         YOUR app ID from AdMob (Apps > App settings), it looks like ca-app-pub-1234567890123456~1234567890.
+         Also replace the rewarded ad unit ID in index.html (AD_CONFIG). See mobile-app/README.md. -->
+    <string name="admob_app_id">ca-app-pub-1841906482747439~1214448628</string>
+</resources>

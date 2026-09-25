@@ -1,0 +1,20 @@
+{
+  "appId": "com.soham.crookedguess",
+  "appName": "Crooked Guess",
+  "webDir": "www",
+  "backgroundColor": "#2a2140",
+  "server": {
+    "androidScheme": "http"
+  },
+  "android": {
+    "allowMixedContent": true,
+    "backgroundColor": "#2a2140"
+  },
+  "plugins": {
+    "SystemBars": {
+      "insetsHandling": "css",
+      "style": "DARK",
+      "initialViewportFitValueHint": "cover"
+    }
+  }
+}
